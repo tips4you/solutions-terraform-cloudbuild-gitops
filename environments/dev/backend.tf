@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "fabled-variety-403701-tfstate"
     prefix = "env/dev"
   }
 }
